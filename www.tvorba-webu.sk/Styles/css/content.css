@@ -1,0 +1,392 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+p, div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.big {
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #003973;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    color: #14587F;
+    font-weight: bold;
+}
+
+/* Header */
+.header .top-bar {
+    padding-top: 0;
+}
+
+/* Header menu */
+.navbar {
+    border-radius: 0;
+    min-height: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-default .navbar-nav > li {
+    padding: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #14587F;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #003973;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: #003973;
+    text-decoration: none;
+}
+/* Message div */
+.message-div {
+    padding: 0;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.message-div h1 {
+    letter-spacing: -2px;
+    color: #000;
+}
+.message-div p {
+    margin: auto;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.message-div p em {
+    font-weight: normal;
+}
+.message-error h1, .message-error p {
+    color: red;
+}
+.message-div .underline {
+    text-decoration: underline;
+}
+.message-div .fa-spinner {
+    font-size: 50px;
+}
+
+/* Errors */
+
+.validation-summary-errors {
+    color: #FF0000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.field-validation-error {
+    color: #FF0000;
+    font-size: 15px;
+}
+
+.validation-summary-errors ul, .validation-summary-errors ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* Menu */
+@media(max-width: 767px) {
+    .open > .dropdown-menu.desktop-only {
+        display: none;
+    }
+
+    .navbar-nav li.desktop-only {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .navbar-nav li.mobile-only {
+        display: none;
+    }
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 10px 20px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+/* Mobile submenu */
+.mobile-submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mobile-submenu li {
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+}
+.mobile-submenu li a {
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.nav > li > a.mobile-submenu-caret {
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    top: 0;
+    z-index: 100;
+}
+@media(min-width: 768px) {
+    .nav > li > a.mobile-submenu-caret {
+        display: none;
+    }
+}
+/* Image */
+img.img-responsive {
+    max-width: 100%;
+}
+
+/* Text */
+.par-justify p, p.par-justify {
+    text-align: justify;
+}
+
+.api-password-group {
+    display: none;
+}
+.navbar {
+    border-radius: 0;
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.page-body {
+    background: url('../images/pozadie.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+
+.email-box {
+    margin-left: -30px;
+    margin-bottom: 300px;
+    margin-top: 30px;
+}
+.title-text {
+    margin-bottom: 100px;
+}
+.text.dialog-box {
+    background-color: #d8d8d8ef;
+    box-shadow: 0 0 10px 5px #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+}
+.font-section {
+    font-size: 18px;
+}
+a.btn-cta {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+a.btn-cta.default {
+    border-color: #414031;
+    background-color: #ff911a;
+    color: #fff;
+    font-weight: normal;
+}
+a.btn-cta:hover {
+    background-color: #289400;
+}
+.sections-tray {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: #000;
+    background-color: #ffffffc7;
+    padding: 16px;
+    box-shadow: 0 0 10px 4px #ccc;
+}
+.green-2 {
+    box-shadow: 0 0 10px 3px #ccc;
+    margin-top: 70px;
+    font-size: 51px;
+    color: #256f00;
+    background-color: #ffffffc2;
+    padding: 8px;
+}
+
+.section_1,
+.section_2,
+.section_3 {
+    margin-left: -100px; /* Príkladný odstup do ľava pre veľké obrazovky */
+}
+
+.sections-tray, .text.dialog-box, .green-2 {
+    max-width: 800px;
+}
+
+@media (max-width: 1400px) {
+    .section_1, .section_2, .section_3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 790px) {
+    .section_1, .section_2, .section_3 {
+        max-width: 100%;
+        margin-left: -6px;
+        margin-right: auto;
+    }
+}
+
+/* Footer */
+.footer {
+    padding: 35px 0px;
+    background-color: #d9d9d9;
+    margin-bottom: -35px;
+}
+.footer p.contact {
+    line-height: 40px;
+}
+.footer text-center {
+    text-align: center;
+}
+.footer p {
+    font-size: 14px;
+}
+.t30-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+   .t30-footer {
+    text-align: center;
+    }
+}
+
+.course-video iframe {
+    width: 462px;
+    height: 319px;
+    margin: -289px 50px 50px 0px;
+}
+
+/* Štýly pre tlačidlo Odoslať */
+.btn-cta {
+  padding: 14px 40px;
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-cta.default {
+  color: #fff;
+  background-color: #00695c;
+  border: none;
+}
+
+.btn-cta.default:hover {
+  background-color: #005247;
+}
+#submitButton {
+    display: none;
+}
+
+#Email:focus + .quote-send-btn #submitButton {
+    display: block;
+}
+.fa-cog:before {
+    content: "\f013";
+    font-size: 22px;
+}
+.medium {
+    font-size: 18px;
+}
+.medium-1 {
+    font-size: 36px;
+}
+.medium-2 {
+    font-size: 36px;
+}
+.medium-3 {
+    font-size: 36px;
+}
+.medium28 {
+    font-size: 28px;
+}
+.info-1 {
+    font-size: 20px;
+}
+.info-2 {
+    font-size: 20px;
+}
+.video_player {
+    margin-top: 70px;
+}
+
+.video_player iframe {
+    width: 100%; /* Nastaviť šírku na 100% kontajneru */
+    height: 300px; /* Nastaviť výšku podľa potreby */
+}
+a.btn-cta {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #ff6f00;
+    margin-bottom: 35px;
+}
+.dow_n {
+    margin-top: 100px;
+}
+
+.background-thank-you {
+    background-color: #fff;
+}

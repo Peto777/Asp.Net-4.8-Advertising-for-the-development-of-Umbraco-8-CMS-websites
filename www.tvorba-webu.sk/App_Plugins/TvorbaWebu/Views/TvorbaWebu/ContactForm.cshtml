@@ -1,0 +1,86 @@
+﻿@using tw.lib.Models
+@model TvorbaWebuModel
+
+<div class="section_1">
+    <div class="container">
+        <h1 class="green-2">Získajte web ktorý bude zarábať a bude podľa vašich predstáv...</h1>
+    </div>
+</div>
+<div class="section_2">
+    <div class="container">
+        <div class="text dialog-box">
+            <p>
+                Zadajte e-mail
+            </p>
+            @using (Html.BeginUmbracoForm<tw.lib.Controllers.TvorbaWebuController>("HandleFormSubmit", null, new { @class = "form-horizontal" }))
+            {
+
+                @Html.ValidationSummary(true, "E-mail sa nepodarilo zaregistrovať. Opravte chyby a skúste to ešte raz.")
+                @Html.AntiForgeryToken()
+
+                <div class="tw-form">
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "E-mail" })
+                        @Html.ValidationMessageFor(m => m.Email)
+                    </div>
+                    <div class="api-password-group">
+                        @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+                    </div>
+                    <div class="api-password-group">
+                        @Html.TextBoxFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        <p>
+                            <em>
+                                Na zadaný email <strong>dostanete podrobné informácie o spracovaní webu, čo by mal obsahovať.</strong>.
+                            </em>
+                        </p>
+                        <div class="form-item quote-send-btn">
+                            <a href="#" onclick="twSendQuote(); return false;" class="btn-cta default" style="box-shadow: 0 0 10px #CCC"><strong>Chcem web  »</strong></a>
+                            <input type="submit" id="submitButton" class="hidden" />
+                        </div>
+                        <div class="quote-send-pending hidden">
+                            <p class="medium">
+                                <i class="fas fa-cog fa-spin"></i> Prebieha odoslanie. Čakajte prosím ...
+                            </p>
+                        </div>
+                        <hr />
+                        <p>
+                            <em>
+                                Navrhneme vašu stránku tak, aby bola prehľadná, atraktívna a ľahko ovládateľná pre vašich návštevníkov.
+                                Použite vhodné farby, fonty a obrázky, ktoré podporujú vašu značku.
+                            </em>
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div class="section_3">
+    <div class="container">
+        <div class="sections-tray">
+            <p style="font-size: 14px">
+                Nezadávate žiadne osobné ani platobné údaje. Nič neplatíte teraz a ani sa nezaväzujete nič platiť v budúcnosti.
+            </p>
+            <p style="font-size: 14px">
+                <em>
+                    Váš e-mail je u nás (GLOZIKSOFT) v bezpečí. Budeme ho na základe vášho súhlasu používať podľa zásad ochrany osobných údajov, ktoré plne rešpektujú slovenskú a EÚ legislatívu.
+                    Stlačením tlačidla vyjadrujete svoj súhlas so spracovaním potrebným pre zaslanie detailných informácií o aktuálnej ponuke a ďalších noviniek od PGSOFTWEB, ktoré sa budú týkať
+                    kurzov a návodov pre tvorbu webových stránok. Svoj súhlas môžete kedykoľvek odvolať kliknutím na tlačidlo Odhlásiť, ktoré je v každom zaslanom e-maile.
+                </em>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#Email').focus();
+    });
+    function twSendQuote() {
+        $('.quote-send-btn').addClass('hidden');
+        $('.quote-send-pending').removeClass('hidden');
+        document.getElementById('submitButton').click();
+    }
+</script>

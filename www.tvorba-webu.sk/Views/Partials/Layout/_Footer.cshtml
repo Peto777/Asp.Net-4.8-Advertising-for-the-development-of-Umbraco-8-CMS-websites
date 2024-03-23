@@ -1,0 +1,33 @@
+﻿@inherits UmbracoViewPage
+@using tw.lib.Models.UmbracoCmsContent
+@using tw.lib.Repositories.UmbracoCmsContent
+@{
+    var home = Model.Root();
+    Texty texty = TextyRepository.GetFromUmbraco(Umbraco);
+}
+<!--footer menu-->
+<footer class="footer">
+        <div class="t30-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <p>
+                            &copy;2022 - @DateTime.Today.Year.ToString() Tvorba webu
+                            <br />
+                            Vyvíjame webové stránky, eshopy, mikrostránky, blogy.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>
+                            <span class="rounded-icon"><i class="fa fa-phone fa-fw"></i></span> @texty.TvorbaWebuPhone<br />
+                            <span class="rounded-icon"><i class="fa fa-envelope fa-fw"></i></span> @texty.TvorbaWebuEmail<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="footer text-center">
+                    <a href="https://www.pgsoftweb.sk/obchodne-podmienky" target="_blank">Obchodné podmienky</a>
+                    <a href="https://www.pgsoftweb.sk/ochrana-osobnych-udajov" target="_blank">Ochrana osobných údajov</a>
+                </div>
+            </div>
+        </div>
+</footer>

@@ -1,0 +1,140 @@
+[
+  {
+    "outputFileName": "Styles/css/content.min.css",
+    "inputFiles": [
+      "Styles/css/content.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/chosen.jquery.min.js",
+    "inputFiles": [
+      "Scripts/chosen.jquery.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/ContactFormApi.min.js",
+    "inputFiles": [
+      "Scripts/ContactFormApi.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/document.ready.min.js",
+    "inputFiles": [
+      "Scripts/document.ready.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/waypoints.min.js",
+    "inputFiles": [
+      "Scripts/waypoints.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/typed.min.js",
+    "inputFiles": [
+      "Scripts/typed.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/spectrum.min.js",
+    "inputFiles": [
+      "Scripts/spectrum.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/slick.min.js",
+    "inputFiles": [
+      "Scripts/slick.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/scroll.min.js",
+    "inputFiles": [
+      "Scripts/scroll.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/lightslider.min.js",
+    "inputFiles": [
+      "Scripts/lightslider.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/lightgallery.min.js",
+    "inputFiles": [
+      "Scripts/lightgallery.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/lightgallery-all.min.js",
+    "inputFiles": [
+      "Scripts/lightgallery-all.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.validate-vsdoc.min.js",
+    "inputFiles": [
+      "Scripts/jquery.validate-vsdoc.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.uploadfile.min.js",
+    "inputFiles": [
+      "Scripts/jquery.uploadfile.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.ui.datepicker-sk.min.js",
+    "inputFiles": [
+      "Scripts/jquery.ui.datepicker-sk.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.lazy.min.js",
+    "inputFiles": [
+      "Scripts/jquery.lazy.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.Form.min.js",
+    "inputFiles": [
+      "Scripts/jquery.Form.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.counterup.min.js",
+    "inputFiles": [
+      "Scripts/jquery.counterup.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.cookie.min.js",
+    "inputFiles": [
+      "Scripts/jquery.cookie.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.auto-complete.min.js",
+    "inputFiles": [
+      "Scripts/jquery.auto-complete.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery-ui.min.js",
+    "inputFiles": [
+      "Scripts/jquery-ui.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery-1.10.2.intellisense.min.js",
+    "inputFiles": [
+      "Scripts/jquery-1.10.2.intellisense.js"
+    ]
+  }
+]
